@@ -8,5 +8,7 @@ public class Main {
         StringBuilder sb = new StringBuilder();
         StringTokenizer st = new StringTokenizer(br.readLine());
 
+        System.out.println("main 입니다.");
+
     }
 }
