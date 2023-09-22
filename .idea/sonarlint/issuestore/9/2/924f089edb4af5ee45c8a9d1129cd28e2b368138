@@ -1,0 +1,11 @@
+
+7
+java:S1220""Move this file to a named package.8‚Æý¼«1
+S
+java:S1854	"6Remove this useless assignment to local variable "st".(ëþáÿ8‡Æý¼«1
+X
+java:S1854"6Remove this useless assignment to local variable "sb".(€ê±Õúÿÿÿÿ8‡Æý¼«1
+I
+java:S1481"'Remove this unused "sb" local variable.(€ê±Õúÿÿÿÿ8‰Æý¼«1
+D
+java:S1481	"'Remove this unused "st" local variable.(ëþáÿ8‰Æý¼«1
