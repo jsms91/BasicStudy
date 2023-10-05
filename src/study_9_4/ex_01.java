@@ -3,7 +3,7 @@ package study_9_4;
 import java.io.*;
 import java.util.*;
 
-//2023.09.20 ACM 호텔(백준 10350번_브론즈3)
+//2023.09.20 ACM 호텔(백준 10250번_브론즈3)
 public class ex_01 {
     public static void main(String[] args)  throws Exception {
 
@@ -37,6 +37,7 @@ public class ex_01 {
 
         x = N%H == 0 ? H : N%H; // 층
         y =  N%H == 0 ? N/H : N/H+ 1; // 해당층에서 엘베에서부터 몇번째인지
+        //+1 대신 Math.ceil을 사용(단, (double)로해서 소수점을 해야 올림이 된다.
 
         return (x + String.format("%02d", y));
     }

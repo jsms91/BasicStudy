@@ -1,0 +1,14 @@
+
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÇÈ©ïüÿÿÿÿ8©Îİô¯1
+Q
+java:S1066#"/Merge this if statement with the enclosing one.(®Ä¢şÿÿÿÿ8©Îİô¯1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ì£‹8ªÎİô¯1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ºÿÿı8ªÎİô¯1
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ÙØ¤Şıÿÿÿÿ8­Ïİô¯1
+L	java:S106,"+Replace this use of System.out by a logger.(Ê‰üİıÿÿÿÿ8²Ïİô¯1
+G	java:S106-"+Replace this use of System.out by a logger.(¶Ö¨‘8²Ïİô¯1
+L	java:S106."+Replace this use of System.out by a logger.(ŠñÍÈıÿÿÿÿ8²Ïİô¯1
+G	java:S106/"+Replace this use of System.out by a logger.(¥ï¡8²Ïİô¯1
+F	java:S1060"+Replace this use of System.out by a logger.(ğËöa8²Ïİô¯1

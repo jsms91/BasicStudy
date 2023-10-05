@@ -9,3 +9,4 @@ I
 java:S1481"'Remove this unused "sb" local variable.(€ê±Õúÿÿÿÿ8‰Æı¼«1
 D
 java:S1481	"'Remove this unused "st" local variable.(ëşáÿ8‰Æı¼«1
+L	java:S106"+Replace this use of System.out by a logger.(Š«™¡üÿÿÿÿ8Û‚á«1
