@@ -50,8 +50,6 @@ public class ex_01 {
 
         int ans = 1;
         for(int i=2; i<=N; i++) {
-//            System.out.println(ans+"_ans사이즈 : " + student.get(ans).size());
-//            System.out.println(i+"_사이즈 : " + student.get(i).size());
             ans = student.get(ans).size() >= student.get(i).size() ? ans : i ;
         }
 

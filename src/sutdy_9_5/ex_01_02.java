@@ -41,17 +41,5 @@ public class ex_01_02 {
             }
         }
 
-        System.out.println(map.get(0));
-        System.out.println(map.get(1));
-        System.out.println(map.get(2));
-        System.out.println(map.get(3));
-        System.out.println(map.get(4));
-
-
-
-
-
-
-
     }
 }
