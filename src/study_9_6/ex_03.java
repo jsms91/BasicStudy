@@ -1,9 +1,11 @@
 package study_9_6;
 //협회 코딩테스트
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class ex_03 {
 
@@ -13,35 +15,41 @@ public class ex_03 {
     static int num = 1000000007;
     public static void main(String args[]) throws Exception {
 
-        Scanner sc = new Scanner(System.in);
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st;
 
-        int T = sc.nextInt(); //총 테스트 케이스의 횟수
+        int T = Integer.parseInt(br.readLine());//총 테스트 케이스의 횟수
 
         for(int i=0; i<T; i++) {
-
-            N = sc.nextInt(); //이번 케이스의 육상선수의 수
-
-            arr = new int[N];
-
-
-            for(int j=0; j<N; j++) { //해당 케이스의 육상선수들의 점수 입력
-                arr[j] = sc.nextInt();
-            }
-
-
-            //문제 해결
-            for(int j=0; j<arr.length; j++) {
-                AnswerN+=result(arr,j);
-            }
-
-
-            //문제해결
-            AnswerN = AnswerN % num; //해당 케이스의 육상선수들의 점수가 담긴 배열
-
-            //정답 출력
-            System.out.println("#"+(i+1)+ " " + AnswerN);
-
+            N = Integer.parseInt(br.readLine());
+            st = new StringTokenizer(br.readLine());
         }
+
+//        for(int i=0; i<T; i++) {
+//
+//            N = sc.nextInt(); //이번 케이스의 육상선수의 수
+//
+//            arr = new int[N];
+//
+//
+//            for(int j=0; j<N; j++) { //해당 케이스의 육상선수들의 점수 입력
+//                arr[j] = sc.nextInt();
+//            }
+//
+//
+//            //문제 해결
+//            for(int j=0; j<arr.length; j++) {
+//                AnswerN+=result(arr,j);
+//            }
+//
+//
+//            //문제해결
+//            AnswerN = AnswerN % num; //해당 케이스의 육상선수들의 점수가 담긴 배열
+//
+//            //정답 출력
+//            System.out.println("#"+(i+1)+ " " + AnswerN);
+//
+//        }
 
 
     }
